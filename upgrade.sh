@@ -1,0 +1,1 @@
+helm upgrade windows-app . -n windows
