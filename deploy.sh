@@ -1,1 +1,1 @@
-helm install windows-app .\windows-chart --namespace windows
+helm install windows-app ./template --namespace windows
