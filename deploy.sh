@@ -1,1 +1,1 @@
-helm install windows-app ./template --namespace windows
+helm install windows-app . --namespace windows
