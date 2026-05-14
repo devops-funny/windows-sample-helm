@@ -1,0 +1,7 @@
+apiVersion: v2
+name: windows-chart
+description: A Helm chart for deploying a Windows container into the windows namespace
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+icon: https://raw.githubusercontent.com/kubernetes/helm/main/docs/images/helm.svg

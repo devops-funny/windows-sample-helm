@@ -1,0 +1,1 @@
+helm install windows-app .\windows-chart --namespace windows

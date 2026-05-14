@@ -1,0 +1,23 @@
+replicaCount: 1
+
+namespace: windows
+
+image:
+  repository: mcr.microsoft.com/windows/servercore
+  tag: ltsc2022
+  pullPolicy: IfNotPresent
+
+containerPort: 80
+
+service:
+  type: ClusterIP
+  port: 80
+
+nodeSelector:
+  kubernetes.io/os: windows
+
+tolerations: []
+
+resources: {}
+
+securityContext: {}
